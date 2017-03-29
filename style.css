@@ -1,0 +1,135 @@
+
+
+
+body{
+
+	margin: 0;
+	padding: 0;
+	/*background-image: url( "../images/pixel_weave.png" );*/ 
+	background-color: #DAFAFF;
+	 
+}
+
+/*general.........................................
+*/
+.main{padding-top: 3%}
+.row {padding: 2% 0;}
+.bg {
+
+	background-color: rgba(134,172,178,.1);
+	box-shadow: 0px 0px 10px -3px rgba(189,189,189,.5);
+}
+.ribbon{background-color: rgba(255,195,255,.8);}
+.pad{
+	padding-left: 5%;
+	padding-top: 2%;
+
+}
+
+
+/*header.........................................
+*/
+
+Header.main_nav{
+	padding: 2% 0;
+	display: block;
+	box-shadow: 5px 5px 20px -5px rgba(189,189,189,.5);
+}
+
+.logo{
+	margin: 1% auto;
+	text-align: center;
+}
+
+.logo a{
+	font-size: 3em;
+	color: #fff;
+	text-decoration: none;
+	border:3px solid #fff;
+	text-transform: uppercase;
+	padding: 2px 10px 0px 10px;
+}
+
+.logo a:hover{
+
+	background-color: #FFC3E1;
+	color:#FFF;
+	/*border-color: #B2AB74;*/
+
+}
+/*typography..........................................
+*/
+
+body{
+	font-family: 'abel', sans-serif;
+	font-size: 1.5em;
+	color:#000;
+}
+
+h2{
+ 	font-family: 'satisfy', cursive;
+ 	font-size: 3em;
+ 	margin: 0.67em;
+ 	text-align: center;
+ 	color: #B2AB74;
+ 
+
+}
+
+p{
+	text-align: center;
+}
+
+/*images.............................
+*/
+
+img{
+
+	max-width: 100%;
+
+}
+
+img.avatar{
+
+	border-radius: 400px;
+	border:2px solid #fff;
+
+}
+
+img:hover{
+
+	opacity: 0.8;
+}
+
+/*footer........................
+*/
+
+ul.social{
+
+	display: block;
+	margin: 5% 0;
+	list-style: none;
+	text-align: center;
+}
+
+ul.social li{
+	font-size: 2em;
+	display:inline;
+	padding: 0 2%;
+}
+
+ul.social li a{
+	color: #B2AB74;
+}
+
+ul.social li.twitter a:hover{color:rgb(0,172,237);}
+ul.social li.github a:hover{color:rgb(118,118,118);}
+ul.social li.youtube a:hover{color:rgb(187,0,0);}
+ul.social li.linkedin a:hover{color:rgb(0,123,182);}
+
+
+p.copyright{
+	text-align: center;
+	font-size: 1em;
+	color:#B2AB74;
+}
